@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90E0EF"
+    tools:context=".AboutMe">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/foto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/foto" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardUserName"
+            android:layout_below="@id/foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#B9E0FF"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:fontFamily="@font/courgette"
+                android:gravity="center"
+                android:text="Fata Dwi Putra"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B9E0FF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/cardPassword"
+            android:layout_below="@id/cardUserName">
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:fontFamily="@font/courgette"
+                android:gravity="center"
+                android:text="A11.2021.13905"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B9E0FF"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/cardLogin"
+            android:layout_below="@id/cardPassword">
+
+            <TextView
+                android:id="@+id/tmblLogin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/cardPassword"
+                android:backgroundTint="#B9E0FF"
+                android:fontFamily="@font/courgette"
+                android:gravity="center"
+                android:outlineSpotShadowColor="#B9E0FF"
+                android:text="Teknik Informatika - S1"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>

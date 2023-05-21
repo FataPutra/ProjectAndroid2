@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90E0EF"
+    tools:context=".DetailMakanan">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardjudulinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#00B4D8"
+        app:cardCornerRadius="20dp">
+
+        <TextView
+            android:id="@+id/judulinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#00B4D8"
+            android:padding="10dp"
+            android:text="Edit Data Barang"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardinputkode"
+        android:layout_below="@id/cardjudulinput"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/inputkode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Kode Barang"
+            android:inputType="text"
+            android:backgroundTint="#CAF0F8"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="25sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardinputnama"
+        android:layout_below="@id/cardinputkode"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/inputnama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="Nama Barang"
+            android:padding="5dp"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardinputsatuan"
+        android:layout_below="@id/cardinputnama"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/inputsatuan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Satuan Barang"
+            android:padding="5dp"
+            android:inputType="text"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="25sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardinputjumlah"
+        android:layout_below="@id/cardinputsatuan"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/inputjmlstok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Stok Barang"
+            android:padding="5dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="25sp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardinputharga"
+        android:layout_below="@id/cardinputjumlah"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/inputharga"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:hint="Harga Barang"
+            android:padding="5dp"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#2C74B3"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardtmblsave"
+        android:layout_below="@id/cardinputharga"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/tmblsave"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="UPDATE"
+            android:outlineSpotShadowColor="#2C74B3"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:backgroundTint="#2C74B3"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#82AAE3"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardtmbldelete"
+        android:layout_below="@id/cardtmblsave"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/tmbldelete"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="DELETE"
+            android:outlineSpotShadowColor="#82AAE3"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:backgroundTint="#82AAE3"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#A3C7D6"
+        app:cardCornerRadius="10dp"
+        android:id="@+id/cardtmblexit"
+        android:layout_below="@id/cardtmbldelete"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/tmblexit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="EXIT"
+            android:outlineSpotShadowColor="#A3C7D6"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:backgroundTint="#A3C7D6"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

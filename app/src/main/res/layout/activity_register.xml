@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAF0F8"
+    tools:context=".Register">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardRegist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#00B4D8"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:text="REGISTER"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:background="#00B4D8"
+            android:textAlignment="center" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardUserName"
+        android:layout_below="@id/cardRegist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#A3C7D6"
+        app:cardCornerRadius="10dp">
+
+        <EditText
+            android:id="@+id/usernameregist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Username"
+            android:textColor="@color/black"
+            android:background="#A3C7D6"
+            android:inputType="text"
+            android:textAlignment="center" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A3C7D6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardEmail"
+        android:layout_below="@id/cardUserName">
+
+        <EditText
+            android:id="@+id/emailregist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Email"
+            android:background="#A3C7D6"
+            android:textColor="@color/black"
+            android:inputType="text"
+            android:textAlignment="center" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A3C7D6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardPassword"
+        android:layout_below="@id/cardEmail">
+
+        <EditText
+            android:id="@+id/passwordregist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:background="#A3C7D6"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:password="true"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A3C7D6"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardKonfPassword"
+        android:layout_below="@id/cardPassword">
+
+        <EditText
+            android:id="@+id/konfpasswordregist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Konfirmasi Password"
+            android:background="#A3C7D6"
+            android:textColor="@color/black"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:password="true"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFE5F1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardtblregist"
+        android:layout_below="@id/cardKonfPassword">
+
+        <Button
+            android:id="@+id/tmblregist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="#FFE5F1"
+            android:outlineSpotShadowColor="#FFE5F1"
+            android:text="REGISTER"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADA2FF"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/cardtbllogin"
+        android:layout_below="@id/cardtblregist">
+
+        <Button
+            android:id="@+id/tmblloginregist"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:backgroundTint="#ADA2FF"
+            android:outlineSpotShadowColor="#ADA2FF"
+            android:text="LOGIN"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/Identitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="#82AAE3"
+        android:fontFamily="@font/artifika"
+        android:padding="5dp"
+        android:text="A11.2021.13905 - Fata Dwi Putra"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

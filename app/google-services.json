@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "835186687316",
+    "firebase_url": "https://fir-uas-34651-default-rtdb.firebaseio.com",
+    "project_id": "fir-uas-34651",
+    "storage_bucket": "fir-uas-34651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835186687316:android:e298276184f82a00bd5cc1",
+        "android_client_info": {
+          "package_name": "com.example.a13905_uas_ppb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835186687316-15khe40vut7i5bkbrupltatdiluvh94q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMVC8WdiZS74cg4lxbGmKW0s2yg1Bc4cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835186687316-15khe40vut7i5bkbrupltatdiluvh94q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835186687316:android:1c9f195bbbb2f4aebd5cc1",
+        "android_client_info": {
+          "package_name": "com.example.volleycrudmysql"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835186687316-15khe40vut7i5bkbrupltatdiluvh94q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMVC8WdiZS74cg4lxbGmKW0s2yg1Bc4cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835186687316-15khe40vut7i5bkbrupltatdiluvh94q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
