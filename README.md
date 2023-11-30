@@ -1,2 +1,2 @@
-# projekAndroid1
-Pembuatan projek pertama kali untuk Android
+# projekAndroid2
+Projek Android
